@@ -12,7 +12,13 @@ h1
 
 h2 
 {
+    text-align: center;   
+    color: #00A3FF;
+}
 
+h3 
+{
+    color: #00FFFF;
 }
 
 header 
