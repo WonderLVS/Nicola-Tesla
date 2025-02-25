@@ -1,0 +1,67 @@
+body 
+{
+    background-color: #0A192F;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1
+{
+    font-family: "Merriweather", Georgia, serif;
+}
+
+h2 
+{
+
+}
+
+header 
+{
+    padding: 5%;
+    margin: 0px;
+    text-align: center;
+	font-size: 150%;
+    color: #E3FAFF;
+    text-shadow: 0 0 25px #CDDEE6;
+    background-image: url(lightning.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-clip: initial;
+}
+
+footer 
+{
+    text-align: center;
+    color: #E0E0E0;
+    padding: 3%;
+    margin: 0px;
+    background-color: #0B0C10;
+    font-size: 100%;
+}
+
+.sheet 
+{
+    font-family: "Open Sans", Verdana, sans-serif;
+    color: #E0E0E0;
+    padding: 2% 10%;
+    margin: 3% 10%; 
+    background-color: #0E0D17;
+    border-style: hidden;
+    border-radius: 12px;
+}
+
+#Photo 
+{
+    padding: 0% 0% 5% 5%;
+    float: right;
+    width: 30%;
+    height: 35%;
+}
+
+#Photo2 
+{
+    padding: 2% 5% 5% 0%;
+    float: left;
+    width: 30%;
+    height: 35%;
+}
