@@ -1,34 +1,36 @@
 body 
 {
-    background-color: #0A192F;
+    background-color:#1B2735;
     padding: 0px;
     margin: 0px;
 }
 
-h1
+h2
 {
-    font-family: "Merriweather", Georgia, serif;
-}
-
-h2 
-{
+    color: #E3FAFF;
+    font-family: "Libre Baskerville", Georgia, serif;
+    padding: 2% 0 2% 0;
     text-align: center;   
-    color: #00A3FF;
+    font-size: 180%;
 }
 
-h3 
+h3
 {
-    color: #00FFFF;
+    color: #E3FAFF;
+    font-family: "Playfair Display", Georgia, serif;
+    padding: 1% 0 1% 0;
+    font-size: 130%;
 }
 
-header 
+header
 {
-    padding: 5%;
+    padding: 2%;
     margin: 0px;
     text-align: center;
-	font-size: 150%;
+	font-size: 300%;
+    font-family: "Cormorant Garamond", Georgia, serif;
     color: #E3FAFF;
-    text-shadow: 0 0 25px #CDDEE6;
+    text-shadow: 0 0 25px #0088cc;
     background-image: url(lightning.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -38,22 +40,87 @@ header
 footer 
 {
     text-align: center;
-    color: #E0E0E0;
-    padding: 3%;
+    font-family: "Libre Baskerville", Georgia, serif;
+    font-size: 130%;
+    color: #E3FAFF;
+    padding: 2%;
     margin: 0px;
-    background-color: #0B0C10;
+    background-color: #0E0D17;
     font-size: 100%;
+}
+
+footer a 
+{
+    color: #A8DADC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover 
+{
+    color: #F1FAEE;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
 }
 
 .sheet 
 {
     font-family: "Open Sans", Verdana, sans-serif;
-    color: #E0E0E0;
+    color: #E3FAFF;
     padding: 2% 10%;
     margin: 3% 10%; 
     background-color: #0E0D17;
     border-style: hidden;
     border-radius: 12px;
+}
+
+.sheet-cards h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.sheet-cards 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2%;
+    max-width: 76%;
+    margin: 3% 10%;
+    padding: 2%;
+    background-color: #0E0D17;
+    border-style: hidden;
+    border-radius: 12px;
+}
+
+.invention-card 
+{
+    flex: 1 1 40%;
+    max-width: 40%;
+    text-align: center;
+    background: #1B2735;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 2% 0;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.video-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .invention-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
 }
 
 #Photo 
